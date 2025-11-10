@@ -1,0 +1,7 @@
+name: Main Build
+
+on: [push]
+
+jobs:
+  build:
+    uses: ./.github/workflows/../zmk-config/build.yaml
